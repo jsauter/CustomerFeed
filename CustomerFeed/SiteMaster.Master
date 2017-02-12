@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="CustomerFeed.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <link rel="Stylesheet" type="text/css" href="CustomerFeedStyles.css" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <title>PlasticChatter - A place for Tupperware consultants to connect</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+        <a href="Default.aspx"><img src="http://www.plasticchatter.ca/images/logo_125x137.png" class="mainlogo" alt="PlasticChatter Logo"/></a>
+        <br />
+    </div>
+    <asp:ContentPlaceHolder ID="navigation" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="main_page">
+    <div id="side_container">
+        <div id="side">
+            <asp:Panel ID="LoginPanel" DefaultButton="SubmitButton" runat="server">
+                <img src="images/get_started.png" alt="get started" /><br /> <br />
+                <asp:Label ID="UserNameLabel" Text="Username (no spaces):" runat="server" />
+                <br />
+                <asp:TextBox ID="UserNameTextBox" Width="140px" runat="server" />
+                <asp:RequiredFieldValidator ID="UserNameValidator" runat="server" 
+                    ControlToValidate="UserNameTextBox" ErrorMessage="Required" ValidationGroup="LoginGroup"></asp:RequiredFieldValidator>
+                <br />
+                <asp:Label ID="PasswordLabel" runat="server" Text="Password:" />
+                <br />
+                <asp:TextBox ID="PasswordTextBox" runat="server" TextMode="Password" 
+                    Width="140px" />
+                <asp:RequiredFieldValidator ID="PasswordValidator" runat="server" 
+                    ControlToValidate="PasswordTextBox" ErrorMessage="Required" ValidationGroup="LoginGroup" ></asp:RequiredFieldValidator>
+                <br />
+                <asp:Label ID="InvalidLabel" Text="Invalid Member name or Password" ForeColor="Red" runat="server" Visible="false" />
+                <br />
+                <br />
+                <asp:ImageButton ImageUrl="images/log_in.gif" ID="SubmitButton"  runat="server" OnClick="SubmitButtonClick" ValidationGroup="LoginGroup" 
+                   BorderStyle="None" />
+                <br />
+                <br />
+                <asp:HyperLink ID="ResetPasswordHyperlink" Text="Forgot your password?" NavigateUrl="~/RetrievePassword.aspx" runat="server" />
+  
+                <hr />
+                <h3>New Member?</h3>
+                <p>Join now to access our community and participate in the discussions!</p>
+                <asp:ImageButton ImageUrl="images/create_account.gif" ID="RegisterHyperlink" 
+                    runat="server" onclick="RegisterHyperlink_Click" />
+                <hr />               
+            </asp:Panel>
+            <asp:Panel ID="LogoutPanel" runat="server" Visible="false">
+                <h3>Welcome back <asp:Label ID="WelcomeBackName"  runat="server" /></h3>
+                <p><asp:LinkButton ID="CustomerLinkButton" runat="server" CommandArgument="Home" oncommand="Navigate" Text="My Web Services Account" Visible="false" /></p>
+                <p><asp:LinkButton ID="AdministrationLinkButton" runat="server" CommandArgument="Administration" oncommand="Navigate" Text="Administration" 
+                        Visible="false" /></p>
+                
+                <p><asp:LinkButton ID="LogoutLinkButton" OnClick="Logout" Text="Logout" runat="server" /></p>
+            </asp:Panel>
+        </div>
+        <div id="side_footer">
+            <br />
+        </div>
+    </div>
+    <div id="main_container">
+        <div id="main"> 
+            <asp:ContentPlaceHolder ID="mainContent" runat="server" />
+        </div>
+        <div id="main_footer">
+            <p>&nbsp;</p>
+            <p>&copy; PlasticChatter 2009, All rights reserved</p>
+        </div>
+    </div>
+    </div>
+</form>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-UA-8421045-2");
+        pageTracker._trackPageview();
+    } catch (err) { }
+</script>
+</body>
+</html>

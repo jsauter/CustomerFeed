@@ -1,0 +1,11 @@
+C:\Source\TupperWorks\TupperWorksDataAccess\bin\Debug\CustomerFeedDataAccess.dll
+C:\Source\TupperWorks\TupperWorksDataAccess\bin\Debug\CustomerFeedDataAccess.pdb
+C:\Source\TupperWorks\TupperWorksDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\TupperWorks\TupperWorksDataAccess\obj\Debug\CustomerFeedDataAccess.dll
+C:\Source\TupperWorks\TupperWorksDataAccess\obj\Debug\CustomerFeedDataAccess.pdb
+C:\Source\CustomerFeed\CustomerFeedDataAccess\bin\Debug\CustomerFeedDataAccess.dll
+C:\Source\CustomerFeed\CustomerFeedDataAccess\bin\Debug\CustomerFeedDataAccess.pdb
+C:\Source\CustomerFeed\CustomerFeedDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\CustomerFeed\CustomerFeedDataAccess\obj\Debug\CustomerFeedDataAccess.dll
+C:\Source\CustomerFeed\CustomerFeedDataAccess\obj\Debug\CustomerFeedDataAccess.pdb
+C:\Source\CustomerFeed\CustomerFeedDataAccess\bin\Debug\MySql.Data.dll

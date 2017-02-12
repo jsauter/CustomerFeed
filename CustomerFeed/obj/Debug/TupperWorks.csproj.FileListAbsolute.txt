@@ -1,0 +1,7 @@
+C:\Source\TupperWorks\TupperWorks\bin\TupperWorks.dll
+C:\Source\TupperWorks\TupperWorks\bin\TupperWorks.pdb
+C:\Source\TupperWorks\TupperWorks\bin\TupperWorksDataAccess.dll
+C:\Source\TupperWorks\TupperWorks\bin\TupperWorksDataAccess.pdb
+C:\Source\TupperWorks\TupperWorks\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\TupperWorks\TupperWorks\obj\Debug\TupperWorks.dll
+C:\Source\TupperWorks\TupperWorks\obj\Debug\TupperWorks.pdb

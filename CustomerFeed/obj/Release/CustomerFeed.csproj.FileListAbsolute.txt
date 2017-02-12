@@ -1,0 +1,14 @@
+C:\Source\CustomerFeed\CustomerFeed\bin\Editor_data\ed_styles\ed_upload_image_a.gif
+C:\Source\CustomerFeed\CustomerFeed\bin\Editor_data\ed_styles\ed_upload_image_n.gif
+C:\Source\CustomerFeed\CustomerFeed\bin\CustomerFeed.dll
+C:\Source\CustomerFeed\CustomerFeed\bin\CustomerFeed.pdb
+C:\Source\CustomerFeed\CustomerFeed\bin\CustomerFeedDataAccess.dll
+C:\Source\CustomerFeed\CustomerFeed\bin\obout_Editor.dll
+C:\Source\CustomerFeed\CustomerFeed\bin\obout_FileUpload.dll
+C:\Source\CustomerFeed\CustomerFeed\bin\CustomerFeedDataAccess.pdb
+C:\Source\CustomerFeed\CustomerFeed\obj\Release\ResolveAssemblyReference.cache
+C:\Source\CustomerFeed\CustomerFeed\obj\Release\CustomerFeed.dll
+C:\Source\CustomerFeed\CustomerFeed\obj\Release\CustomerFeed.pdb
+C:\Source\CustomerFeed\CustomerFeed\bin\GroupRadioButton.dll
+C:\Source\CustomerFeed\CustomerFeed\bin\Styles\style_1.css
+C:\Source\CustomerFeed\CustomerFeed\bin\Recaptcha.dll

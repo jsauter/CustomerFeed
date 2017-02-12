@@ -1,0 +1,5 @@
+C:\Source\CustomerFeed\CustomerFeedDataAccess\bin\Release\CustomerFeedDataAccess.dll
+C:\Source\CustomerFeed\CustomerFeedDataAccess\bin\Release\CustomerFeedDataAccess.pdb
+C:\Source\CustomerFeed\CustomerFeedDataAccess\obj\Release\ResolveAssemblyReference.cache
+C:\Source\CustomerFeed\CustomerFeedDataAccess\obj\Release\CustomerFeedDataAccess.dll
+C:\Source\CustomerFeed\CustomerFeedDataAccess\obj\Release\CustomerFeedDataAccess.pdb
